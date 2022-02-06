@@ -58,8 +58,9 @@
 /* Anything udner 1024px */
 @media screen and (max-width: 1024px) {
   .image-grid {
-    --num-cols: 2;
-    --row-height: 200px;
+    grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 200px;
+  
   }
 }
 
