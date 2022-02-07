@@ -5,5 +5,7 @@ $(document).ready(function(){
     out :{  delay: 3, effect: 'lightSpeedOut', sync: true},
     loop: true
 });
-$('.texts').css({'font-color':'red'});    
+const div = document.getElementById("container");
+
+div.style.color = "red";
 });
