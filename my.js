@@ -8,7 +8,7 @@ const cycleText = () => {
 cycleText();
 setInterval(cycleText, 400);
 
-const textList2 = ["TIME", "FREEDOM", "MONEY", "CALM", "HAPPINESS", "HEALTH"];
+const textList2 = ["time", "freedom", "money", "calm", "happiness", "rest", "good health", "what matters"];
 const cycle2 = document.querySelector("#cycle2");
 let j = 0;
 const cycleText2 = () => {
