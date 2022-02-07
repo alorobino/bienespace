@@ -1,12 +1,11 @@
-$(document).ready(function() {
 $('.texts').textillate({
     minDisplayTime: 1000, 
     in: { effect: 'flipInX', sync: true }, 
     out :{  delay: 3, effect: 'lightSpeedOut', sync: true},
     loop: true
+
 });
-});
-const textList = ["Corgi", "Shih Tzu", "Pug", "Dachshund"];
+const textList = ["space", "expense", "cleaning", "energy"];
 const cycle = document.querySelector("#cycle");
 let i = 0;
 const cycleText = () => {
@@ -14,9 +13,9 @@ const cycleText = () => {
   i = ++i % textList.length;
 };
 cycleText();
-setInterval(cycleText, 1000);
+setInterval(cycleText, 400);
 
-const textList2 = ["Corgi", "Shih Tzu", "Pug", "Dachshund"];
+const textList2 = ["time", "freedom", "money", "calm"];
 const cycle2 = document.querySelector("#cycle2");
 let j = 0;
 const cycleText2 = () => {
@@ -24,5 +23,5 @@ const cycleText2 = () => {
   j = ++j % textList2.length;
 };
 cycleText2();
-setInterval(cycleText2, 2000);
+setInterval(cycleText2, 500);
 
