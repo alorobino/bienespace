@@ -5,5 +5,5 @@ $(document).ready(function(){
     out :{  delay: 3, effect: 'lightSpeedOut', sync: true},
     loop: true
 });
-$('#about').css({'background-color':'black'});    
+$('.texts').css({'font-color':'red'});    
 });
