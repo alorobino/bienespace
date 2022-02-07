@@ -1,4 +1,4 @@
-const textList = ["space", "expense", "cleaning", "energy"];
+const textList = ["unused space", "expense", "cleaning", "emissions", "stuff"];
 const cycle = document.querySelector("#cycle");
 let i = 0;
 const cycleText = () => {
@@ -8,7 +8,7 @@ const cycleText = () => {
 cycleText();
 setInterval(cycleText, 400);
 
-const textList2 = ["time", "freedom", "money", "calm"];
+const textList2 = ["TIME", "FREEDOM", "MONEY", "CALM", "HAPPINESS", "HEALTH"];
 const cycle2 = document.querySelector("#cycle2");
 let j = 0;
 const cycleText2 = () => {
@@ -16,5 +16,5 @@ const cycleText2 = () => {
   j = ++j % textList2.length;
 };
 cycleText2();
-setInterval(cycleText2, 500);
+setInterval(cycleText2, 800);
 
