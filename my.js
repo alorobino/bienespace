@@ -18,10 +18,10 @@ setInterval(cycleText, 1000);
 
 const textList2 = ["Corgi", "Shih Tzu", "Pug", "Dachshund"];
 const cycle2 = document.querySelector("#cycle2");
-let i = 0;
+let j = 0;
 const cycleText2 = () => {
   cycle2.innerHTML = textList2[i];
-  i = ++i % textList2.length;
+  j = ++j % textList2.length;
 };
 cycleText2();
 setInterval(cycleText2, 2000);
