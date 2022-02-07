@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+<script type="text/javascript">
+  $('.texts').textillate({
+    minDisplayTime: 1000, 
+    in: { effect: 'flipInX', sync: true }, 
+    out :{  delay: 3, effect: 'lightSpeedOut', sync: true},
+    loop: true
+});
+    </script>
     <meta charset="utf-8">
     <title>bienespace</title>
     <link rel="icon" type="image/x-icon" href="home.png">
@@ -113,6 +122,18 @@
 </div> 
         <br>
         <p>ABOUT</p>
+  
+  <h1 class="tlt">
+    <ul class="texts">
+        <li>Some Title</li>   
+        <li>Another Title</li>
+    </ul>
+    <ul class="texts">
+        <li>Some Title2</li>   
+        <li>Another Title2</li>
+    </ul>
+</h1>
+  
   <p><i>Tiny space living for wellbeing and living well</i> </p>
                                                                       
                                                                 
