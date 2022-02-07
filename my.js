@@ -6,6 +6,7 @@ $('.texts').textillate({
     loop: true
 });
 });
+const textList = ["Corgi", "Shih Tzu", "Pug", "Dachshund"];
 const cycle = document.querySelector("#cycle");
 let i = 0;
 const cycleText = () => {
