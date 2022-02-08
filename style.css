@@ -70,9 +70,7 @@
    .hide {
   display: none;
 }
-      .myDIV {
-  padding: 16px;
-}
+     
       .myDIV:hover {
         color: orange;
       }
@@ -85,6 +83,10 @@
   padding: 16px;
   font-style: italic;
   color: orange;
+}
+
+ .myDIV {
+  padding: 16px;
 }
 
     
