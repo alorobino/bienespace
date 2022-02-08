@@ -69,8 +69,6 @@
 @media(hover: hover) and (pointer: fine) {
    .hide {
   display: none;
-  padding: 16px;
-  font-style: italic;
 }
       .myDIV {
   padding: 16px;
@@ -81,8 +79,13 @@
 
 .myDIV:hover + .hide {
   display: block;
-  color: orange;
  }}
+
+.hide{
+  padding: 16px;
+  font-style: italic;
+  color: orange;
+}
 
     
   
