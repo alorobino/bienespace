@@ -1,13 +1,23 @@
- #footer {
-            padding: 10px 10px 0px 10px;
+ .footer {
+            padding: 10px 10px 0 10px;
             bottom: 0;
             width: 100%;
-            /* Height of the footer*/ 
+            /* Height of the footer*/
             height: 25px;
           font-family: 'Montserrat'; font-size: 1vw;
           text-align: center;
             background: white;
         }
+
+
+
+#header {
+  padding: 16px 16px 16px 16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.5s;
+}
 
       body {
     font-family: 'Montserrat';font-size: 3vw;
@@ -26,11 +36,11 @@
    <!-- margin: auto ;
     display: block;-->
   }
-      
-      .lgo {
-         padding: 16px;
+
+      #lgo {
+        height:100%
       }
-      
+
 
 
 .image-grid {
@@ -62,14 +72,14 @@
   .image-grid {
     grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 150px;
-  
+
   }}
 
 @media(hover: hover) and (pointer: fine) {
    .hide {
   display: none;
 }
-     
+
       .myDIV:hover {
         color: orange;
       }
@@ -88,11 +98,9 @@
   padding: 16px;
 }
 
-    
-  
+
+
 .tab1 {
- 
+
   font-style: italic;
       }
-      
-
