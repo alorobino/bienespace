@@ -11,14 +11,29 @@
 
 
 
+/*
 #header {
   padding: 16px 16px 16px 16px;
   position: fixed;
   top: 0;
   width: 100%;
-  transition: 0.5s;
 }
 
+.header {
+  padding: 10px 10px 10px 10px;
+  height:10%;
+  position: fixed;
+  top: 0;
+  background: red;
+}
+*/
+
+.lgo {
+  position: block;
+  width: 20%;
+  margin: 16px;
+
+}
       body {
     font-family: 'Montserrat';font-size: 3vw;
     margin: 0;
@@ -28,19 +43,15 @@
         padding: 16px;
       }
 
-      .bg, .vid
-{
-  width: 100%;
-  z-index: 0;
-  padding: 13% 16px 16px 16px;
-   <!-- margin: auto ;
-    display: block;-->
+    .vid {
+      width: 98%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block
+
+
+
   }
-
-      #lgo {
-        height:100%
-      }
-
 
 
 .image-grid {

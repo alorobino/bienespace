@@ -17,20 +17,3 @@ const cycleText2 = () => {
 };
 cycleText2();
 setInterval(cycleText2, 800);
-
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("header").style.height= "10%";
-    document.getElementById("lgo").style.height = "100%";
-
-  } else {
-    document.getElementById("header").style.height = "20%";
-    document.getElementById("lgo").style.height = "100%";
-
-  }
-}
-
-$(document).ready(function(){
-    $(this).scrollTop(0);
-});
