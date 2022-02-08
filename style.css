@@ -5,13 +5,13 @@
             width: 100%;
             /* Height of the footer*/ 
             height: 25px;
-          font-family: 'Montserrat'; font-size: 2vw;
+          font-family: 'Montserrat'; font-size: 1vw;
           text-align: center;
             background: white;
         }
 
       body {
-    font-family: 'Montserrat';font-size: 5vw;
+    font-family: 'Montserrat';font-size: 3vw;
     margin: 0;
 }
 
