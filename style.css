@@ -84,10 +84,11 @@
 }
   
 .tab1 {
-  margin-left: 14px;
+ 
   font-style: italic;
  background: #FCFAA6;
-  <!--margin-right: auto;-->
+  <!--margin-right: auto;
+  margin-left: 14px;-->
  
   
       }
